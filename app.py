@@ -5,6 +5,11 @@ import uuid
 from datetime import datetime, timedelta
 from streamlit_gsheets import GSheetsConnection
 
+st.set_page_config(
+    page_title="CS:GO Ledger",  # The text in the tab
+    page_icon="glock.png",       # The icon
+    layout="wide"
+)
 # Page setup
 st.set_page_config(layout="wide")
 
